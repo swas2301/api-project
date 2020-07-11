@@ -12,7 +12,7 @@ const Grid = require('gridfs-stream');
 const GridStore= require('mongoose-gridstore');
 const fs = require('fs');
 
-const SENDGRID_API_KEY = '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';
+const SENDGRID_API_KEY = 'your api key';
 sgMail.setApiKey(SENDGRID_API_KEY);
 
 const app = express();
